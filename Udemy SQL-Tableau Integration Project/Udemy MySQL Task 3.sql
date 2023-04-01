@@ -3,10 +3,11 @@ Compare the average salary of female versus male employees in the entire company
 until year 2002, and add a filter allowing you to see that per each department.
 */
 
-SELECT m.gender, 
-	   d.dept_name, 
-       TRUNCATE(AVG(s.salary),2) AS avg_salary, 
-       YEAR(s.from_date) AS calendar_year
+SELECT 
+    m.gender, 
+    d.dept_name, 
+    TRUNCATE(AVG(s.salary),2) AS avg_salary, 
+    YEAR(s.from_date) AS calendar_year
 FROM t_salaries AS s
 JOIN t_dept_emp AS de
 	ON s.emp_no = de.emp_no
