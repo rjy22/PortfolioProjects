@@ -1,4 +1,6 @@
-Completed for "MySQL for Data Analysis and Business Intelligence" course on Udemy: Final project integrating learned SQL skills with Tableau data visualization, using the 'employees' database to answer various business questions.
+Completed for "MySQL for Data Analysis and Business Intelligence" course on Udemy: 
+Final project integrating learned SQL skills with Tableau data visualization, 
+using the 'employees' database to answer various business questions.
 
 Final dashboard can be found here:
 
